@@ -1,0 +1,8 @@
+import { useState } from 'react';
+
+function useForceUpdate() {
+  const [, setValue] = useState<number>(0);
+  return () => setValue((value) => value + 1); // update state to force render
+}
+
+export { useForceUpdate };
