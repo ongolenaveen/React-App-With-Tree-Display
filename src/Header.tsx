@@ -25,6 +25,11 @@ export function Header() {
               Vsix
             </NavLink>
           </Nav.Link>
+          <Nav.Link className="nav-link">
+            <NavLink to="posts" className={'nav-link'}>
+              Posts
+            </NavLink>
+          </Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
